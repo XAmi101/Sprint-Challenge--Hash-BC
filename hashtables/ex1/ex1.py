@@ -22,9 +22,19 @@ def get_indices_of_item_weights(weights, length, limit):
     else:
         return [1,0]
 
-       
-        
+    # for i in range(length):
+    #     hash_table_insert(weights[i], i)
 
+
+    # for j in range(length):
+    #     if hash_table_retrieve(ht, limit - weights[j]) is not None:
+    #         if j > hash_table_retrieve(ht, limit - weights[j]):
+    #             return j, hash_table_retrieve(ht, limit - weights[j])
+    #         return hash_table_retrieve(ht, limit - weights[j]), j
+
+    # return None
+
+    
 def print_answer(answer):
     if answer is not None:
         print(str(answer[0] + " " + answer[1]))
